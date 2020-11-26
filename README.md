@@ -1,2 +1,2 @@
-# The Hub
-A website for my bits and bobs
+# The-Boys-2.0-Website
+A website for my discord and such
