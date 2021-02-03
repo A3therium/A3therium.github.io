@@ -1,2 +1,2 @@
-# The-Boys-2.0-Website
-A website for my discord and such
+# A3therium Dev's Official Website
+A website for my things bits and bobs
