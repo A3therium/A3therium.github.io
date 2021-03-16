@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<HTML>
+	<head>
+		<title>
+		prank lmao
+		</title>
+	</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    p {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    }
+    </style>
+	<style>
+	html {
+		scroll-behavior: smooth;
+	}
+	/* The sidebar menu */
+	.sidenav {
+		height: 100%; /* Full-height: remove this if you want "auto" height */
+		width: 5%; /* Set the width of the sidebar */
+		position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+		z-index: 1; /* Stay on top */
+		top: 0; /* Stay at the top */
+		left: 0;
+		background-color: rgba(0,0,0,0.5);
+		overflow-x: hidden; /* Disable horizontal scroll */
+		padding-top: 20px;
+	}
+
+	/* The navigation menu links */
+	.sidenav a {
+		text-decoration: none;
+		font-size: 25px;
+		color: #818181;
+		display: block;
+	}
+
+	/* When you mouse over the navigation links, change their color */
+	.sidenav a:hover {
+		color: #f1f1f1;
+	}
+
+	/* Style page content */
+	.main {
+		margin-left: 5%; /* Same as the width of the sidebar */
+		padding: 0px 10px;
+	}
+	</style>
+	<body style="font-family:verdana;
+								background-image: url('./images/prank.png');
+								background-repeat: no-repeat;
+								background-attachment: fixed;
+								background-size: cover;
+								text-align:center;
+								color:red;"
+	>
+		<h1>
+            HACK ALERT
+        </h1>
+        <p>
+        </p>
+        <h1>
+            YOU HAVE UNTIL THE FIRST OF APRIL TO SEND <a href="">123456789anonymous@yahoo.co.uk</a> 100 BITCOIN OR YOUR BANK DETAILS WILL BE STOLEN
+        </h1>
+        <p>
+        </p>
+        <h1>
+            THIS IS NOT A JOKE
+        </h1>
+        <p id="demo"></p>
+
+        <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("May 1, 2021 10:10:10").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+            
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+            
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+            
+        // If the count down is over, write some text 
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+        }, 1000);
+        </script>
+	</body>
+</HTML>
